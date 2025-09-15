@@ -1,7 +1,7 @@
 package kr.co.ch02.sub1;
 
-public class Hello {
+public class Welcome {
     public void show() {
-
+        System.out.println("Welcome");
     }
 }
