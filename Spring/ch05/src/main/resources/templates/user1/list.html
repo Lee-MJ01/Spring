@@ -17,14 +17,14 @@
             <th>나이</th>
             <th>관리</th>
         </tr>
-        <tr>
-            <td>a101</td>
-            <td>홍길동</td>
-            <td>1921-03-09</td>
-            <td>33</td>
+        <tr th:each="user:${dtoList}">
+            <td>[[${user.user_id}]]</td>
+            <td>[[${user.name}]]</td>
+            <td th:text="${user.birth}"></td>
+            <td th:text="${user.age}"></td>
             <td>
-                <a th:href="@{/user1/modify}">수정</a>
-                <a th:href="@{/user1/remove}">삭제</a>
+                <a th:href="@{/user1/modify(user_id=${user.user_id}, age=${user.age})}">수정</a> <!-- 주소 뒤에 괄호를 넣어 값 넘기기 -->
+                <a th:href="@{/user1/delete(user_id=${user.user_id})}">삭제</a>
             </td>
         </tr>
 

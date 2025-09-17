@@ -5,23 +5,23 @@
 <mapper namespace="kr.co.ch05.mapper.User1Mapper">
 
     <insert id="insertUser1">
-        INSERT INTO user1 VALUES (#{uid},#{name},#{birth},#{age});
+        INSERT INTO tb_user1 VALUES (#{user_id},#{name},#{birth},#{age})
     </insert>
 
     <select id="selectAllUser1" resultType="kr.co.ch05.dto.User1DTO">
-        select * from user1;
+        select * from tb_user1
     </select>
 
     <select id="selectUser1" resultType="kr.co.ch05.dto.User1DTO">
-        select * from user1 where uid=#{uid};
+        select * from tb_user1 where user_id=#{user_id}
     </select>
 
     <update id="updateUser1">
-        update user1 set name=#{name}, birth=#{birth}, age=#{age} where uid=#{uid};
+        update tb_user1 set name=#{name}, birth=#{birth}, age=#{age} where user_id=#{user_id}
     </update>
 
     <delete id="deleteUser1">
-        delete from user1 where uid=#{uid};
+        delete from tb_user1 where user_id=#{user_id}
     </delete>
 
 </mapper>

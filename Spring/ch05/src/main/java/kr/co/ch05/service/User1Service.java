@@ -19,8 +19,8 @@ public class User1Service {
     public List<User1DTO> findAll(){
         return mapper.selectAllUser1();
     }
-    public User1DTO findById(String uid){
-        return mapper.selectUser1(uid);
+    public User1DTO findById(String user_id){
+        return mapper.selectUser1(user_id);
     }
     public void regist(User1DTO user1DTO){
         mapper.insertUser1(user1DTO);
@@ -28,7 +28,7 @@ public class User1Service {
     public void modify(User1DTO user1DTO){
         mapper.updateUser1(user1DTO);
     }
-    public void remove(String uid){
-        mapper.deleteUser1(uid);
+    public void remove(String user_id){
+        mapper.deleteUser1(user_id);
     }
 }

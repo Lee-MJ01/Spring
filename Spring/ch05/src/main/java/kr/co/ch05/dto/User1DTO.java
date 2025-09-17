@@ -7,7 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @Builder
 public class User1DTO {
-    private String uid;
+    private String user_id;
     private String name;
     private String birth;
     private int age;
