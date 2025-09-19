@@ -7,6 +7,8 @@ import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
+// Mybatis를 사용하기에 mapper 구조를 사용
+
 @Mapper
 public interface User1Mapper {
 
