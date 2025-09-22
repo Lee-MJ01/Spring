@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>user1 list</title>
+    <title>user1::list</title>
 </head>
 <body>
-    <h3>user1 list</h3>
+    <h3>user1 목록</h3>
     <a th:href="@{/}">처음으로</a>
     <a th:href="@{/user1/register}">등록</a>
 
@@ -15,20 +15,21 @@
             <th>이름</th>
             <th>생년월일</th>
             <th>나이</th>
-            <th>비고</th>
+            <th>관리</th>
         </tr>
-
         <tr th:each="user:${dtoList}">
-            <td th:text="${user.userid}"></td>
-            <td th:text="${user.name}"></td>
+            <td>[[${user.userid}]]</td>
+            <td>[[${user.name}]]</td>
             <td th:text="${user.birth}"></td>
             <td th:text="${user.age}"></td>
             <td>
-                <a th:href="@{/user1/modify(userid=${user.userid})}">수정</a>
+                <a th:href="@{/user1/modify(userid=${user.userid}, age=${user.age})}">수정</a> <!-- 주소 뒤에 괄호를 넣어 값 넘기기 -->
                 <a th:href="@{/user1/delete(userid=${user.userid})}">삭제</a>
             </td>
         </tr>
+
     </table>
+
 
 </body>
 </html>

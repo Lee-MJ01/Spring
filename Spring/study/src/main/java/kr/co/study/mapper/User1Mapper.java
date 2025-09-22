@@ -6,21 +6,12 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 @Mapper
-public class User1Mapper {
+public interface User1Mapper {
 
-    public User1DTO selcet(String user_id) {
-        return null;
-    }
-    public List<User1DTO> selcetAll() {
-        return null;
-    }
-    public void insert(User1DTO dto) {
+    public User1DTO select(String userid);
+    public List<User1DTO> selectAll();
+    public void insert(User1DTO dto);
+    public void update(User1DTO user1DTO);
+    public void delete(String userid);
 
-    }
-    public void update(User1DTO dto) {
-
-    }
-    public void delete(String user_id) {
-
-    }
 }

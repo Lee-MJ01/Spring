@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class User1DTO {
+public class User2DTO {
     private String userid;
     private String name;
-    private String birth;
+    private String gender;
     private int age;
 }

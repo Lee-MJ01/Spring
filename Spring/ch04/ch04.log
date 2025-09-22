@@ -1,90 +1,31 @@
-2025-09-19T09:20:00.746+09:00  INFO 4196 --- [ch04] [Test worker] k.c.ch04.controller.User1ControllerTest  : Starting User1ControllerTest using Java 21.0.8 with PID 4196 (started by GGG in C:\Users\GGG\Desktop\workspace\Spring\ch04)
-2025-09-19T09:20:00.752+09:00  INFO 4196 --- [ch04] [Test worker] k.c.ch04.controller.User1ControllerTest  : No active profile set, falling back to 1 default profile: "default"
-2025-09-19T09:20:01.461+09:00  INFO 4196 --- [ch04] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-09-19T09:20:01.479+09:00  INFO 4196 --- [ch04] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JDBC repository interfaces.
-2025-09-19T09:20:02.435+09:00  INFO 4196 --- [ch04] [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-09-19T09:20:02.796+09:00  INFO 4196 --- [ch04] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-19T09:20:02.803+09:00  WARN 4196 --- [ch04] [Test worker] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-2025-09-19T09:20:03.344+09:00  INFO 4196 --- [ch04] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@248d3a
-2025-09-19T09:20:03.347+09:00  INFO 4196 --- [ch04] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-19T09:20:03.569+09:00  INFO 4196 --- [ch04] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-09-19T09:20:03.570+09:00  INFO 4196 --- [ch04] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-09-19T09:20:03.571+09:00  INFO 4196 --- [ch04] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
-2025-09-19T09:20:03.602+09:00  INFO 4196 --- [ch04] [Test worker] k.c.ch04.controller.User1ControllerTest  : Started User1ControllerTest in 3.205 seconds (process running for 4.495)
-2025-09-19T09:20:04.582+09:00  INFO 4196 --- [ch04] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-19T09:20:04.599+09:00  INFO 4196 --- [ch04] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-19T09:20:38.180+09:00  INFO 11776 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : Starting Ch04Application using Java 21.0.8 with PID 11776 (C:\Users\GGG\Desktop\workspace\Spring\ch04\build\classes\java\main started by GGG in C:\Users\GGG\Desktop\workspace\Spring\ch04)
-2025-09-19T09:20:38.181+09:00  INFO 11776 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : No active profile set, falling back to 1 default profile: "default"
-2025-09-19T09:20:38.218+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\GGG\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\23.7.0.25.01\665f52abef9122ce003b5cfc1d9d44f7302e2cfe\ojdbc11-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/GGG/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/23.7.0.25.01/665f52abef9122ce003b5cfc1d9d44f7302e2cfe/oraclepki.jar
-2025-09-19T09:20:38.218+09:00  INFO 11776 --- [ch04] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2025-09-19T09:20:38.218+09:00  INFO 11776 --- [ch04] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2025-09-19T09:20:38.766+09:00  INFO 11776 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-09-19T09:20:38.779+09:00  INFO 11776 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
-2025-09-19T09:20:39.155+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-19T09:20:39.168+09:00  INFO 11776 --- [ch04] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-19T09:20:39.169+09:00  INFO 11776 --- [ch04] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-19T09:20:39.207+09:00  INFO 11776 --- [ch04] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch04]   : Initializing Spring embedded WebApplicationContext
-2025-09-19T09:20:39.207+09:00  INFO 11776 --- [ch04] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 988 ms
-2025-09-19T09:20:39.581+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-09-19T09:20:39.793+09:00  INFO 11776 --- [ch04] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-09-19T09:20:39.797+09:00  WARN 11776 --- [ch04] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-2025-09-19T09:20:40.111+09:00  INFO 11776 --- [ch04] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@21bd9624
-2025-09-19T09:20:40.112+09:00  INFO 11776 --- [ch04] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-09-19T09:20:40.239+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-09-19T09:20:40.268+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch04'
-2025-09-19T09:20:40.278+09:00  INFO 11776 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : Started Ch04Application in 2.52 seconds (process running for 3.08)
-2025-09-19T09:20:50.886+09:00  INFO 11776 --- [ch04] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch04]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-19T09:20:50.886+09:00  INFO 11776 --- [ch04] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-19T09:20:50.887+09:00  INFO 11776 --- [ch04] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-09-19T09:37:21.980+09:00  INFO 11776 --- [ch04] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 3 deletions, 0 modifications)
-2025-09-19T09:37:21.986+09:00  INFO 11776 --- [ch04] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-19T09:37:21.990+09:00  INFO 11776 --- [ch04] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-19T09:37:21.996+09:00  INFO 11776 --- [ch04] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-09-19T09:37:22.006+09:00  INFO 11776 --- [ch04] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-09-19T09:37:22.135+09:00  INFO 11776 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : Starting Ch04Application using Java 21.0.8 with PID 11776 (C:\Users\GGG\Desktop\workspace\Spring\ch04\build\classes\java\main started by GGG in C:\Users\GGG\Desktop\workspace\Spring\ch04)
-2025-09-19T09:37:22.135+09:00  INFO 11776 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : No active profile set, falling back to 1 default profile: "default"
-2025-09-19T09:37:22.359+09:00  INFO 11776 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-09-19T09:37:22.363+09:00  INFO 11776 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
-2025-09-19T09:37:22.435+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-19T09:37:22.436+09:00  INFO 11776 --- [ch04] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-19T09:37:22.436+09:00  INFO 11776 --- [ch04] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-19T09:37:22.450+09:00  INFO 11776 --- [ch04] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch04]   : Initializing Spring embedded WebApplicationContext
-2025-09-19T09:37:22.450+09:00  INFO 11776 --- [ch04] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 311 ms
-2025-09-19T09:37:22.535+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-09-19T09:37:22.601+09:00  INFO 11776 --- [ch04] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2025-09-19T09:37:22.601+09:00  WARN 11776 --- [ch04] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-2025-09-19T09:37:22.644+09:00  INFO 11776 --- [ch04] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@5925e40b
-2025-09-19T09:37:22.645+09:00  INFO 11776 --- [ch04] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2025-09-19T09:37:22.674+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-09-19T09:37:22.683+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch04'
-2025-09-19T09:37:22.686+09:00  INFO 11776 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : Started Ch04Application in 0.595 seconds (process running for 1005.624)
-2025-09-19T09:37:22.688+09:00  INFO 11776 --- [ch04] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-09-19T09:37:22.761+09:00  INFO 11776 --- [ch04] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch04]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-19T09:37:22.761+09:00  INFO 11776 --- [ch04] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-19T09:37:22.762+09:00  INFO 11776 --- [ch04] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-09-19T09:37:24.085+09:00  INFO 11776 --- [ch04] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
-2025-09-19T09:37:24.086+09:00  INFO 11776 --- [ch04] [Thread-9] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-09-19T09:37:24.089+09:00  INFO 11776 --- [ch04] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-09-19T09:37:24.091+09:00  INFO 11776 --- [ch04] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
-2025-09-19T09:37:24.097+09:00  INFO 11776 --- [ch04] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
-2025-09-19T09:37:24.166+09:00  INFO 11776 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : Starting Ch04Application using Java 21.0.8 with PID 11776 (C:\Users\GGG\Desktop\workspace\Spring\ch04\build\classes\java\main started by GGG in C:\Users\GGG\Desktop\workspace\Spring\ch04)
-2025-09-19T09:37:24.167+09:00  INFO 11776 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : No active profile set, falling back to 1 default profile: "default"
-2025-09-19T09:37:24.312+09:00  INFO 11776 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
-2025-09-19T09:37:24.315+09:00  INFO 11776 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
-2025-09-19T09:37:24.376+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2025-09-19T09:37:24.377+09:00  INFO 11776 --- [ch04] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-09-19T09:37:24.377+09:00  INFO 11776 --- [ch04] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
-2025-09-19T09:37:24.390+09:00  INFO 11776 --- [ch04] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch04]   : Initializing Spring embedded WebApplicationContext
-2025-09-19T09:37:24.390+09:00  INFO 11776 --- [ch04] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 222 ms
-2025-09-19T09:37:24.436+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2025-09-19T09:37:24.476+09:00  INFO 11776 --- [ch04] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
-2025-09-19T09:37:24.476+09:00  WARN 11776 --- [ch04] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
-2025-09-19T09:37:24.516+09:00  INFO 11776 --- [ch04] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@6445e2a5
-2025-09-19T09:37:24.516+09:00  INFO 11776 --- [ch04] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
-2025-09-19T09:37:24.533+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2025-09-19T09:37:24.542+09:00  INFO 11776 --- [ch04] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch04'
-2025-09-19T09:37:24.545+09:00  INFO 11776 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : Started Ch04Application in 0.398 seconds (process running for 1007.484)
-2025-09-19T09:37:24.547+09:00  INFO 11776 --- [ch04] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2025-09-19T09:37:26.060+09:00  INFO 11776 --- [ch04] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/ch04]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-09-19T09:37:26.060+09:00  INFO 11776 --- [ch04] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-09-19T09:37:26.061+09:00  INFO 11776 --- [ch04] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-09-22T09:01:39.179+09:00  INFO 11228 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : Starting Ch04Application using Java 21.0.8 with PID 11228 (C:\Users\GGG\Desktop\workspace\Spring\ch04\build\classes\java\main started by GGG in C:\Users\GGG\Desktop\workspace\Spring\ch04)
+2025-09-22T09:01:39.186+09:00  INFO 11228 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : No active profile set, falling back to 1 default profile: "default"
+2025-09-22T09:01:39.256+09:00  INFO 11228 --- [ch04] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\GGG\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\23.7.0.25.01\665f52abef9122ce003b5cfc1d9d44f7302e2cfe\ojdbc11-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/GGG/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/23.7.0.25.01/665f52abef9122ce003b5cfc1d9d44f7302e2cfe/oraclepki.jar
+2025-09-22T09:01:39.257+09:00  INFO 11228 --- [ch04] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-09-22T09:01:39.257+09:00  INFO 11228 --- [ch04] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-09-22T09:01:40.190+09:00  INFO 11228 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-09-22T09:01:40.192+09:00  INFO 11228 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-22T09:01:40.270+09:00  INFO 11228 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-09-22T09:01:40.666+09:00  INFO 11228 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-09-22T09:01:40.667+09:00  INFO 11228 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2025-09-22T09:01:40.676+09:00  INFO 11228 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2025-09-22T09:01:40.687+09:00  INFO 11228 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-09-22T09:01:40.688+09:00  INFO 11228 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-09-22T09:01:40.695+09:00  INFO 11228 --- [ch04] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2025-09-22T09:01:41.657+09:00  INFO 11228 --- [ch04] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-22T09:01:41.675+09:00  INFO 11228 --- [ch04] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-22T09:01:41.675+09:00  INFO 11228 --- [ch04] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-22T09:01:41.735+09:00  INFO 11228 --- [ch04] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/ch04]   : Initializing Spring embedded WebApplicationContext
+2025-09-22T09:01:41.736+09:00  INFO 11228 --- [ch04] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2478 ms
+2025-09-22T09:01:42.974+09:00  INFO 11228 --- [ch04] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-09-22T09:01:43.288+09:00  INFO 11228 --- [ch04] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-22T09:01:43.293+09:00  WARN 11228 --- [ch04] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2025-09-22T09:01:43.859+09:00  INFO 11228 --- [ch04] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@653b6c5a
+2025-09-22T09:01:43.861+09:00  INFO 11228 --- [ch04] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-22T09:01:44.121+09:00  INFO 11228 --- [ch04] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-09-22T09:01:44.169+09:00  INFO 11228 --- [ch04] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/ch04'
+2025-09-22T09:01:44.179+09:00  INFO 11228 --- [ch04] [restartedMain] kr.co.ch04.Ch04Application               : Started Ch04Application in 5.603 seconds (process running for 6.452)
+2025-09-22T09:12:33.451+09:00  INFO 11228 --- [ch04] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-22T09:12:33.457+09:00  INFO 11228 --- [ch04] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-22T09:12:33.580+09:00  INFO 11228 --- [ch04] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-22T09:12:33.588+09:00  INFO 11228 --- [ch04] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
