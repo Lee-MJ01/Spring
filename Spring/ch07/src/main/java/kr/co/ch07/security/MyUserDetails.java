@@ -1,6 +1,5 @@
 package kr.co.ch07.security;
 
-
 import kr.co.ch07.entity.User;
 import lombok.Builder;
 import lombok.Data;
@@ -12,6 +11,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+
 @Data
 @Builder
 public class MyUserDetails implements UserDetails {
@@ -22,8 +22,7 @@ public class MyUserDetails implements UserDetails {
     public Collection<? extends GrantedAuthority> getAuthorities() {
         // 계정 목록 리스트 생성, 인가 처리에 사용
         List<GrantedAuthority> authorities = new ArrayList<>();
-        authorities.add(new SimpleGrantedAuthority("ROLE_" + user.getRole())); // 계정 권한 앞에 접두에 ROLE_ 작성해야함
-
+        authorities.add(new SimpleGrantedAuthority("ROLE_" + user.getRole())); // 계정 권한 앞에 접두에 ROLE_ 작성!!!
         return authorities;
     }
 
@@ -45,7 +44,6 @@ public class MyUserDetails implements UserDetails {
 
     @Override
     public boolean isAccountNonLocked() {
-        // 잠겨있는지 여부 확인
         return true;
     }
 
