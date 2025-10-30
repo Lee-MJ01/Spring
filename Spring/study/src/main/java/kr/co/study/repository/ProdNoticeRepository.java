@@ -1,0 +1,9 @@
+package kr.co.study.repository;
+
+import kr.co.study.entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProdOptionRepository extends JpaRepository<Product,Integer> {
+}
